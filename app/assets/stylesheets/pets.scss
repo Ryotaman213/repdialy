@@ -1,0 +1,125 @@
+// Place all the styles related to the pets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.petsindex {
+  width: 40rem;
+  height: 20rem;
+  margin: 0 auto;
+  background-color: green;
+  opacity: 0.9;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.petsimage {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 2rem;
+  float:left;
+}
+
+.petsnames {
+  font-family: 'jurassic',fantasy,sans-serif;
+  color: white;
+  text-align: left;
+  margin-left: 5rem;
+  font-size:2rem;
+  text-shadow: 4px 4px 1px black;
+}
+
+#diarybutton {
+  font-family: 'jurassic',fantasy,sans-serif;
+  float: right;
+  line-height: 12rem;
+  margin-right: 2rem;
+  color: red;
+  font-size: 1.5rem;
+  text-shadow: 4px 4px 1px black;
+}
+
+.petsprof {
+  width: 60rem;
+  height: 60rem;
+  padding-bottom: 38rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  background-color: green;
+  opacity: 0.9;
+}
+
+
+#weight-chart {
+  float:right;
+  background-color: white;
+  margin-right: 2rem;
+  font-size: 4rem;
+}
+
+.condition {
+  height: 2rem;
+  width:95%;
+  padding-top:40rem;
+  background-color: white;
+  margin: 15.5rem auto;
+}
+
+.listwrapper {
+  width: 100%;
+  height: 2rem;
+  margin-top: -40rem;
+}
+
+.datacontent {
+  height: 37rem;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 1rem;
+}
+
+.datawrapper {
+  width: 100%;
+  height: 2rem;
+  margin-top:1rem;
+}
+
+.listbox {
+  width: 6.5rem;
+  line-height: 2rem;
+  text-align: center;
+  display: inline-block;
+  border: solid 4px #4ec4d3;
+  margin-top: 0.1rem;
+  margin-left: 0.01rem;
+  font-weight: bold;
+}
+
+.commentbox {
+  width: 16rem;
+  line-height: 2rem;
+  text-align: center;
+  display: inline-block;
+  border: solid 4px #4ec4d3;
+  margin-top: 0.1rem;
+  font-weight: bold;
+}
+
+.databox {
+  width: 6.5rem;
+  line-height: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 0.01rem;
+  font-weight: bold;
+}
+
+.commentedbox {
+  width: 16rem;
+  line-height: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+}

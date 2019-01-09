@@ -1,0 +1,32 @@
+  <div class='header'>
+    <%= link_to root_path do %>
+    <h1 class='title'>repdiary</h1>
+    <% end %>
+  </div>
+
+  <div class='content'>
+    <% if flash[:notice] %>
+    <p class='flash'><%= flash[:notice] %></p>
+    <% end %>
+
+    <div class='circle'>
+      <%= link_to "/users/1" do %>
+      <%= image_tag "IMG_0009.JPG" %>
+      <% end %>
+      <p class='profile'>PROFILE</p>
+    </div>
+
+    <div class='circle2'>
+      <%= link_to pets_path do %>
+      <%= image_tag "IMG_0154.jpg" %>
+      <% end %>
+    <p class='diary'>DIARY</p>
+    </div>
+    <div class='circle3'>
+      <%= link_to root_path do %>
+      <%= image_tag "IMG_0104.JPG" %>
+      <% end %>
+    <p class='others'>OTHERS</p>
+    </div>
+  </div>
+

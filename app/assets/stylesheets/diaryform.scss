@@ -1,0 +1,44 @@
+ @font-face{
+   font-family: "jurassic";
+   src: font-url('JURASSIC.TTF');
+ }
+
+h2 {
+  text-align: center;
+  font-family: 'jurassic',fantasy,sans-serif;
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: white;
+}
+.contents {
+  width:60rem;
+  height:100%;
+  margin: 0 auto;
+  opacity: 0.8;
+  background-color: black;
+  text-align: center;
+  overflow: scroll;
+}
+.formwrapper {
+  margin-top:10px;
+}
+
+
+input {
+  font-family: 'natural',fantasy,sans-serif;
+  width: 30rem;
+  height: 4rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+input[type="submit"] {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color:#0099ff;
+}
+
+textarea {
+  border-radius: 1rem;
+}

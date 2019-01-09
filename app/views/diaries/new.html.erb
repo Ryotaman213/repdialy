@@ -1,0 +1,37 @@
+  <div class='header'>
+    <%= link_to root_path do %>
+    <h1 class='title'>repdiary</h1>
+    <% end %>
+  </div>
+
+
+<div class='content'>
+  <div class="contents">
+    <%= form_tag('/diaries', method: :post) do %>
+      <h2>
+        Write Your Pet's Diary
+      </h2>
+      <div class= 'formwrapper'>
+      <input placeholder="📊Height(cm)" type="integer" name="height">
+      </div>
+      <div class= 'formwrapper'>
+      <input placeholder="🦎Weight(gram)" type="integer" name="weight">
+      </div>
+      <div class= 'formwrapper'>
+      <input placeholder="🦗🐀Food" type="string" name="food">
+      </div>
+      <div class= 'formwrapper'>
+      <input placeholder="💩Poop" type="string" name="poop">
+      </div>
+      <div class= 'formwrapper'>
+      <input placeholder="🐍Shed" type="string" name="shed">
+      </div>
+      <div class= 'formwrapper'>
+      <textarea cols="70" name="comment" placeholder="Comment" rows="5" type="text"></textarea>
+      </div>
+      <div class= 'formwrapper'>
+      <input type="submit" value="SENT">
+      </div>
+    <% end %>
+  </div>
+</div>

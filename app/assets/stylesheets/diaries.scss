@@ -1,0 +1,118 @@
+// Place all the styles related to the diaries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ @font-face{
+   font-family: "jurassic";
+   src: font-url('JURASSIC.TTF');
+ }
+
+
+.header {
+  height:5rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+.flash {
+  text-align: center;
+  font-size: 5rem;
+  color:red;
+  font-family: 'jurassic',fantasy,sans-serif;
+}
+
+h1.title {
+    font-family: 'natural',fantasy,sans-serif;
+    line-height: 5rem;
+    padding-left: 2rem;
+    color: #009900;
+    font-size: 2em;
+    width:10rem;
+    text-shadow: 1px 2px 2px yellow;
+}
+h1.title :hover {
+  color: #00ff33;
+  text-decoration: none;
+  font-size:3rem;
+}
+
+.content {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  background-color: #66cc66;
+  opacity: 0.8;
+  background-image: url("IMG_0135.JPG");
+  background-size: cover;
+  background-position: center center;
+  overflow: scroll;
+}
+
+p.profile {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'natural',fantasy,sans-serif;
+    text-shadow: 4px 4px 1px black;
+}
+
+p.diary {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'natural',fantasy,sans-serif;
+    text-shadow: 4px 4px 1px black;
+}
+
+p.others {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'natural',fantasy,sans-serif;
+    text-shadow: 4px 4px 1px black;
+}
+
+img {
+  width:17rem;
+  height:17rem;
+  border-radius: 50%;
+}
+
+.circle{
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 10%;
+  opacity: 0.9;
+}
+.circle :hover{
+  opacity: 0.8;
+}
+.circle :active{
+  padding-top:2px;
+}
+
+
+.circle2{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+    opacity: 0.9;
+}
+.circle2 :hover{
+  opacity: 0.85;
+}
+.circle2 :active{
+  padding-top:2px;
+}
+
+
+.circle3{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+    opacity: 0.95;
+}
+.circle3 :hover{
+  opacity: 0.9;
+}
+.circle3 :active{
+  padding-top:2px;
+}

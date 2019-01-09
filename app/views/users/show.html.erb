@@ -1,0 +1,27 @@
+  <div class='header'>
+    <%= link_to root_path do %>
+    <h1 class='title'>repdiary</h1>
+    <% end %>
+  </div>
+
+  <div class='content'>
+    <div class='petcontents'>
+      <div class='petpic'>
+        <%= link_to "/pets/1" do%>
+        <%= image_tag 'IMG_0367.JPG', :class => 'petprof' %>
+        <p class='petsname'>CAESER</p>
+        <% end %>
+      </div>
+    </div>
+
+    <div class='petcontents'>
+      <div class='petpic'>
+        <%= link_to "/pets/1" do%>
+        <%= image_tag 'IMG_0104.JPG', :class => 'petprof' %>
+        <p class='petsname'>Wani</p>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+

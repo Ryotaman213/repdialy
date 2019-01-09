@@ -1,0 +1,32 @@
+  <div class='header'>
+    <%= link_to root_path do %>
+    <h1 class='title'>repdiary</h1>
+    <% end %>
+  </div>
+
+  <div class='content'>
+    <div class='petsindex'>
+      <div class='petsicon'>
+        <div class='petsnames'>
+        caeser
+        </div>
+          <%= image_tag("IMG_0367.JPG", :class => "petsimage") %>
+          <%= link_to  new_diary_path, :id => "diarybutton" do %>
+          Write New Diary
+          <% end %>
+      </div>
+    </div>
+
+        <div class='petsindex'>
+      <div class='petsicon'>
+        <div class='petsnames'>
+        Wani
+        </div>
+          <%= image_tag("IMG_0104.JPG", :class => "petsimage") %>
+          <%= link_to  new_diary_path, :id => "diarybutton" do %>
+          Write New Diary
+          <% end %>
+      </div>
+    </div>
+
+  </div>
